@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+@extends('frontend.layouts.master')<!--used for loder-->
 @section('title','E-SHOP || HOME PAGE')
 @section('main-content')
 <!-- Slider Area -->
