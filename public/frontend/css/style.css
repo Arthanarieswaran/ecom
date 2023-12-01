@@ -944,7 +944,8 @@ Version:1.0
 	color:#333;
 }
 .header.shop .nav li a {
-	color: #fff;
+	/* color: #fff; */
+    color:#333;/*third nav color*/
 	text-transform: capitalize;
 	font-size: 15px;
 	padding: 20px 15px;
