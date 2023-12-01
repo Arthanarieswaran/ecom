@@ -61,8 +61,8 @@
                         <!-- Search Form -->
                         <div class="search-top">
                             <form class="search-form">
-                                <input type="text" placeholder="Search here..." name="search">
-                                <button value="search" type="submit"><i class="ti-search"></i></button>
+                                <input id="search-focus" type="text" class="p-2" placeholder="Search....." style="width: 75vh;"/>
+                                <button value="search" type="submit"><i class="ti-search pt-2" style="margin-top: 5vh;"></i></button>
                             </form>
                         </div>
                         <!--/ End Search Form -->
@@ -84,7 +84,7 @@
                              <form method="POST" {{--action="{{route('product.search')}}"--}} class="form d-flex flex-row align-items-center pe-3 border rounded border-dark">
                                 @csrf
                                 <input id="search-focus" type="text" class="p-2 border-0" placeholder="Search....." style="width: 75vh;"/>
-                                <div class=" bg-cover bg-dark rounded justify-content-center" style="height: 40px"><i class="ti-search p-2" style="color: white;"></i></div>
+                                <div class=" bg-cover bg-dark rounded justify-content-center" style="height: 40px"><i class="ti-search p-2" style="color: white; margin-bottom:-12px;"></i></div>
                                 {{-- <button></button> --}}
                                 {{-- <i class="fa-solid fa-magnifying-glass"></i> --}}
                                 {{-- <button class=" bg-white border rounded" type="submit"><i class="ti-search"></i></button> --}}
@@ -94,7 +94,8 @@
                     {{-- search bar modify --}}
                 {{-- search bar end --}}
 
-                <div class="col-lg-2 col-md-3 col-12">
+                {{--strat favaroti , cart and profile --}}
+                <div class="" style="margin-left: 16vh;">
                     <div class="right-bar">
                         <!-- Search Form -->
                         <div class="sinlge-bar shopping">
@@ -189,13 +190,14 @@
 
                     </div>
                 </div>
+                {{--end favaroti , cart and profile --}}
             </div>
         </div>
     </div>
 
-
+<hr style="margin-top: -3vh;">
     <!-- Header Inner -->
-    <div class="header-inner bg-white">
+    <div class="header-inner bg-white" style="margin-top: -1vh;">
         <div class="container ">
             <div class="cat-nav-head">
                 <div class="row">
@@ -225,4 +227,5 @@
         </div>
     </div>
     <!--/ End Header Inner -->
+    <hr class="shadow" style="margin-top: -1vh;">
 </header>

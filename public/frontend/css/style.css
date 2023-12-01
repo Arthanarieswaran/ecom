@@ -92,9 +92,9 @@ Version:1.0
 .color-plate span:hover{
 	cursor:pointer;
 }
-.color-plate span.color1{
+/* .color-plate span.color1{
 
-}
+} */
 .color-plate span.color2{
 	background:#0088CC;
 }
@@ -379,9 +379,9 @@ Version:1.0
 	color: #F7941D;
 }
 /* Topbar Left Nav */
-.header.shop .left-nav{
+/* .header.shop .left-nav{
 
-}
+} */
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
 }
