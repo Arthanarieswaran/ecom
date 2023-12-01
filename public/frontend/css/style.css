@@ -27,7 +27,7 @@ Version:1.0
 15. Newslatter CSS
 16. About Us CSS
 17. Team CSS
-18. Blog CSS	
+18. Blog CSS
 	+ Blog Archive
 	+ Blog Sidebar
 	+ Blog Single
@@ -93,7 +93,7 @@ Version:1.0
 	cursor:pointer;
 }
 .color-plate span.color1{
-	background:#F7941D;
+
 }
 .color-plate span.color2{
 	background:#0088CC;
@@ -159,7 +159,7 @@ Version:1.0
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background:#F7941D;
+
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -195,7 +195,7 @@ Version:1.0
 }
 .btn:hover{
 	color:#fff;
-	background:#F7941D;
+
 }
 #scrollUp {
 	right: 10px;
@@ -219,7 +219,7 @@ Version:1.0
 	box-shadow: 0px 4px 19px #00000038;
 }
 #scrollUp i:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 /*======================================
@@ -298,10 +298,10 @@ Version:1.0
 .header .nav li .dropdown li:last-child a{
 	border-bottom:0px;
 }
-.header .nav li .dropdown li:hover a{
+/* .header .nav li .dropdown li:hover a{
 	color:#fff;
-	background:#F7941D;
-}
+
+} */
 .header .nav li .dropdown li a:hover{
 	border-color:transparent;
 }
@@ -347,10 +347,10 @@ Version:1.0
 .header .nav li .dropdown li:hover .dropdown.sub-dropdown li a{
 	background:transparent;
 }
-.header .nav li .dropdown li .dropdown.sub-dropdown li a:hover{
+/* .header .nav li .dropdown li .dropdown.sub-dropdown li a:hover{
 	color:#fff;
-	background:#F7941D;
-}
+
+} */
 .header .nav li .dropdown.sub-dropdown li:last-child a{
 	border-bottom:0px solid;
 }
@@ -379,7 +379,7 @@ Version:1.0
 }
 /* Topbar Left Nav */
 .header.shop .left-nav{
-	
+
 }
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
@@ -444,7 +444,7 @@ Version:1.0
 	top: 6px;
 	font-weight: 500;
 }
-.header.shop .nav li .new::before {
+/* .header.shop .nav li .new::before {
 	position: absolute;
 	content: "";
 	left: 4px;
@@ -453,7 +453,7 @@ Version:1.0
 	border-bottom-color: transparent;
 	border-left-color: transparent;
 	border-right-color: transparent;
-}
+} */
 /* Shopping Cart */
 .header .shopping {
 	display: inline-block;
@@ -507,9 +507,9 @@ Version:1.0
 	font-size: 13px;
 	font-weight: 600;
 }
-.header .shopping .dropdown-cart-header a:hover{
+/* .header .shopping .dropdown-cart-header a:hover{
 	color:#F7941D;
-}
+} */
 .header .shopping-list li {
 	overflow: hidden;
 	border-bottom: 1px solid #e6e6e6;
@@ -546,7 +546,7 @@ Version:1.0
 	width: 70px;
 	height: 70px;
 	border-radius:0;
-	
+
 }
 .header .shopping-list .cart-img:hover img{
 	transform:scale(1.09);
@@ -564,9 +564,9 @@ Version:1.0
 	font-size: 13px;
 	color: #333;
 }
-.header .shopping-list h4 a:hover{
+/* .header .shopping-list h4 a:hover{
 	color:#F7941D;
-}
+} */
 .header .shopping-item .bottom {
 	text-align: center;
 }
@@ -597,10 +597,10 @@ Version:1.0
 	font-size: 14px;
 	font-weight: 500;
 }
-.header .shopping-item .bottom .btn:hover{
-	background:#F7941D;
+/* .header .shopping-item .bottom .btn:hover{
+
 	color:#fff;
-}
+} */
 .header.shop{
 	background:#fff;
 }
@@ -684,10 +684,10 @@ Version:1.0
 	font-size: 14px;
 	font-weight: 400;
 }
-.header.shop .nice-select .list li:hover{
-	background:#F7941D;
+/* .header.shop .nice-select .list li:hover{
+
 	color:#fff;
-}
+} */
 .header.shop .search-bar form {
 	display: inline-block;
 	float: left;
@@ -721,10 +721,10 @@ Version:1.0
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.header.shop .search-bar .btnn:hover{
+/* .header.shop .search-bar .btnn:hover{
 	color:#fff;
-	background:#F7941D;
-}
+
+} */
 /* Search Form */
 .header.shop .search-top {
 	opacity: 1;
@@ -757,12 +757,12 @@ Version:1.0
 .header.shop .topbar p {
 	color: #333;
 }
-.header.shop .all-category {
+/* .header.shop .all-category {
 	color: #fff;
 	background: transparent;
 	position: relative;
 	background: #f7941d;
-}
+} */
 .header.shop .all-category h3{
 	padding: 20px 25px;
 }
@@ -819,7 +819,7 @@ Version:1.0
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-	border-left: 3px solid #F7941D;
+	/* border-left: 3px solid #F7941D; */
 	-webkit-box-shadow: 0px 5px 15px #0000000a;
 	-moz-box-shadow: 0px 5px 15px #0000000a;
 	box-shadow: 0px 5px 15px #0000000a;
@@ -832,9 +832,9 @@ Version:1.0
 	text-transform:capitalize;
 	font-weight:400;
 }
-.header.shop .main-category li a:hover{
+/* .header.shop .main-category li a:hover{
 	color:#F7941D;
-}
+} */
 .header.shop .main-category .main-mega{
 	position:relative;
 }
@@ -849,7 +849,7 @@ Version:1.0
 	background: #fff;
 	border: none;
 	padding: 30px;
-	border-left: 3px solid #F7941D;
+	/* border-left: 3px solid #F7941D; */
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition:all 0.4s ease;
@@ -957,7 +957,7 @@ Version:1.0
 }
 .header.shop .nav li:hover a{
 	color:#fff;
-	background:#F7941D;
+
 }
 .header.shop.v2 .nav li:hover a{
 	color:#F7941D;
@@ -965,7 +965,7 @@ Version:1.0
 }
 .header.shop .nav li.active a{
 	color:#fff;
-	background:#F7941D;
+
 }
 .header.shop.v2 .nav li.active a{
 	color:#333 !important;
@@ -978,7 +978,7 @@ Version:1.0
 	margin:0;
 }
 .header.shop .nav li .dropdown li:hover a{
-	background:#F7941D;
+
 }
 .header.shop.v2 .nav li.active .dropdown li a{
 	color:#333 !important;
@@ -1012,10 +1012,10 @@ Version:1.0
 }
 .header.shop.v2 .nav li .dropdown li a:hover{
 	color:#fff !important;
-	background:#F7941D;
+
 }
 .header.shop .nav li .dropdown li .dropdown.sub-dropdown li a:hover{
-	background:#F7941D;
+
 }
 .header.shop .right-bar {
 	display: inline-block;
@@ -1133,7 +1133,7 @@ Version:1.0
 }
 .header .search-form button:hover{
 	color:#fff;
-	background:#F7941D;
+
 	border-color:transparent;
 }
 /* Header Sticky */
@@ -1144,7 +1144,7 @@ Version:1.0
 .header.sticky .all-category{}
 .header.sticky .all-category h3{
 	cursor:pointer;
-	
+
 }
 .header.sticky .all-category .main-category{
 	opacity:0;
@@ -1207,7 +1207,7 @@ Version:1.0
 
 /*======================================
    Hero Area CSS
-========================================*/ 
+========================================*/
 .hero-slider {
 	background: #fff;
 	overflow: hidden;
@@ -1221,7 +1221,7 @@ Version:1.0
     height: 510px;
 }
 .hero-slider .text-inner {
-	
+
 }
 .hero-slider .hero-text {
 	padding: 0 30px;
@@ -1259,7 +1259,7 @@ Version:1.0
 	z-index: 0;
 }
 .hero-slider .hero-text .btn:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 /* Start Hero Area 2 CSS */
@@ -1267,7 +1267,7 @@ Version:1.0
 	position:relative;
 }
 .hero-area2 .single-slider.overlay:before{
-	background:#F7941D;
+
 	opacity:0;
 	visibility:hidden;
 	transform:scale(0.9);
@@ -1360,7 +1360,7 @@ Version:1.0
 	border-radius: 0;
 }
 .hero-area2 .owl-carousel .owl-nav div:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 .hero-area2 .owl-carousel .owl-controls .owl-nav .owl-prev{
@@ -1454,7 +1454,7 @@ Version:1.0
 }
 /* Hero Area 4 */
 .hero-area4 .big-content{
-	
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1511,7 +1511,7 @@ Version:1.0
 	border-radius: 0;
 }
 .hero-area4 .owl-carousel .owl-nav div:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 .hero-area4 .owl-carousel .owl-controls .owl-nav .owl-prev{
@@ -1523,11 +1523,11 @@ Version:1.0
 
 /*======================================
    End Hero Area CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Small Banner CSS
-========================================*/ 
+========================================*/
 .small-banner{
 	padding:30px 0;
 	padding-bottom:0;
@@ -1582,11 +1582,11 @@ Version:1.0
 }
 /*======================================
    End Small Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Mid Banner CSS
-========================================*/ 
+========================================*/
 .midium-banner{
 	padding:0;
 }
@@ -1643,12 +1643,12 @@ Version:1.0
 	text-transform: uppercase;
 }
 .midium-banner .single-banner a:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 /*======================================
    End Mid Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Most Popular CSS
@@ -1694,7 +1694,7 @@ Version:1.0
 }
 .most-popular .owl-carousel .owl-nav div:hover{
 	color:#fff;
-	background:#F7941D;
+
 }
 .most-popular .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:0;
@@ -1734,13 +1734,13 @@ Version:1.0
 }
 .product-area .nav-tabs li:last-child a{
 	border-color:transparent;
-} 
+}
 .product-area .nav-tabs li a i{
 	margin-right:10px;
 }
 .product-area .nav-tabs li a.active,
 .product-area .nav-tabs li:hover a{
-	background:#F7941D;
+
 	color:#fff;
 	border-color:transparent;
 }
@@ -2142,7 +2142,7 @@ Version:1.0
 	margin-top: 10px;
 }
 .shop-sidebar .categor-list li{
-	
+
 }
 .shop-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -2262,7 +2262,7 @@ Version:1.0
 	border-radius:0px;
 }
 .shop .nice-select .list li:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 .shop .view-mode {
@@ -2440,7 +2440,7 @@ Version:1.0
 	background:#3498db;
 }
 .shop.single .product-des .color ul li .two{
-	background:#F7941D;
+
 }
 .shop.single .product-des .color ul li .three{
 	background:#8e44ad;
@@ -2553,7 +2553,7 @@ Version:1.0
 }
 .shop.single .add-to-cart .btn:hover{
 	color:#fff;
-	background:#F7941D;
+
 }
 .shop.single .add-to-cart .btn.min {
 	padding: 0 20px;
@@ -2608,12 +2608,12 @@ Version:1.0
 }
 .shop.single .nav-tabs li a.active,
 .shop.single .nav-tabs li:hover a{
-	background:#F7941D;
+
 	color:#fff;
 	border-color:transparent;
 }
 .shop.single .tab-single {
-	
+
 }
 .shop.single .single-des {
 	margin-top:35px;
@@ -2622,7 +2622,7 @@ Version:1.0
 	margin-bottom:15px;
 	font-weight:500;
 	font-size:22px;
-	
+
 }
 .shop.single .single-des ul{}
 .shop.single .single-des ul li {
@@ -2865,7 +2865,7 @@ Version:1.0
 	line-height:40px;
 	font-size:14px;
 	color:#fff;
-	background:#F7941D;
+
 	border-radius:100%;
 	display:block;
 	position:absolute;
@@ -2991,7 +2991,7 @@ Version:1.0
 	transform:rotate(360deg);
 }
 .shopping-cart .border{
-	
+
 }
 .shopping-cart .table .remove-icon{
 	font-size:16px;
@@ -3148,7 +3148,7 @@ Version:1.0
 	padding-left: 100px;
 }
 .shopping-cart .total-amount .right ul{
-	
+
 }
 .shopping-cart .total-amount .right ul li {
 	font-size: 15px;
@@ -3234,7 +3234,7 @@ Version:1.0
 	background: #F6F7FB;
 }
 .shop.checkout .form .form-group input:hover{
-	
+
 }
 .shop.checkout .nice-select {
 	width: 100%;
@@ -3307,7 +3307,7 @@ Version:1.0
 	bottom:0;
 	height:2px;
 	width:50px;
-	background:#F7941D;
+
 }
 .shop.checkout .single-widget .content ul{
 	margin-top:30px;
@@ -3385,7 +3385,7 @@ Version:1.0
 	bottom:0;
 	height:2px;
 	width:50px;
-	background:#F7941D;
+
 	margin-left:-25px;
 }
 .shop.login .login-form p {
@@ -3442,7 +3442,7 @@ Version:1.0
 	line-height: 20px;
 }
 .shop.login .form .btn:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 .shop.login .login-form .checkbox {
@@ -3563,7 +3563,7 @@ Version:1.0
 	padding: 13px 32px;
 }
 .shop-list .list-content .btn:hover{
-	background:#F7941D;
+
 	color:#fff;
 	border-color:transparent;
 }
@@ -3673,7 +3673,7 @@ Version:1.0
 	margin-top:40px;
 	width: 80px;
 	display:inline-block;
-	
+
 }
 .cown-down .content .cdown {
 	text-align: center;
@@ -3869,11 +3869,11 @@ Version:1.0
 	margin-right:15px;
 }
 .about-us .about-content .button .btn:hover{
-	background:#F7941D;
+
 	color:#fff;
 }
 .about-us .about-content .button .btn.primary{
-	background:#F7941D;
+
 	color:#fff;
 }
 .about-us .about-content .button .btn.primary:hover{
@@ -3932,7 +3932,7 @@ Version:1.0
 .about-us .about-img img{
 	height:100%;
 	width:100%;
-	
+
 }
 /*=============================
 	End About US CSS
@@ -3940,7 +3940,7 @@ Version:1.0
 
 /*======================================
   10. Start Team CSS
-========================================*/  
+========================================*/
 .team{
 	background:#F6F7FB;
 }
@@ -4003,7 +4003,7 @@ Version:1.0
 }
 /*======================================
   End Team CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Shop Blog CSS
@@ -4140,7 +4140,7 @@ Version:1.0
 	transition: all 0.4s ease;
 }
 .main-sidebar .search .button:hover {
-	background:#F7941D;
+
 	color:#fff;
 }
 /* Category List */
@@ -4148,7 +4148,7 @@ Version:1.0
 	margin-top: 15px;
 }
 .main-sidebar .categor-list li{
-	
+
 }
 .main-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -4194,7 +4194,7 @@ Version:1.0
 	border:none;
 }
 .main-sidebar .single-post .image {
-	
+
 }
 .main-sidebar .single-post .image img{
 	float: left;
@@ -4257,12 +4257,12 @@ Version:1.0
 }
 .main-sidebar .side-tags .tag a:hover{
 	color:#fff;
-	background:#F7941D;
+
 	border-color:transparent;
 }
 /* Blog Newslatter CSS */
 .main-sidebar .newsletter{
-	
+
 }
 .main-sidebar .newsletter .letter-inner {
 	position:relative;
@@ -4435,7 +4435,7 @@ Version:1.0
 }
 .blog-single .share-social .content-tags .tag-inner li a:hover{
 	color:#fff;
-	background:#F7941D;
+
 }
 /* Comments */
 .blog-single .comments{
@@ -4458,10 +4458,10 @@ Version:1.0
 	bottom: -1px;
 	height: 100%;
 	width: 3px;
-	background:#F7941D;
+
 }
 .blog-single .comments{
-	
+
 }
 .blog-single .comments .single-comment {
 	position: relative;
@@ -4480,7 +4480,7 @@ Version:1.0
 	left: 0;
 }
 .blog-single .single-comment .content {
-	
+
 }
 .blog-single .single-comment .content h4 {
 	color: #333;
@@ -4550,7 +4550,7 @@ Version:1.0
 	bottom: -1px;
 	height: 100%;
 	width: 3px;
-	background:#F7941D;
+
 }
 .blog-single .reply .form-group {
 	margin-bottom: 20px;
@@ -4641,7 +4641,7 @@ Version:1.0
 	text-align: center;
 	border-radius: 3px;
 	line-height: 40px;
-	background:#F7941D;
+
 }
 .contact-us .single-info ul
 .contact-us .single-info ul li{
@@ -4798,7 +4798,7 @@ Version:1.0
 }
 .error-page .button .btn:hover{
 	color:#fff;
-	background:#F7941D;
+
 	border-color:transparent;
 }
 /*=============================
@@ -4890,7 +4890,7 @@ Version:1.0
 }
 /* Copyright */
 .footer .copyright{
-	
+
 }
 .footer .copyright .inner{
 	border-top:1px solid #eeeeee3d;
