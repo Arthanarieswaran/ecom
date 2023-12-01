@@ -195,14 +195,14 @@
 
 
     <!-- Header Inner -->
-    <div class="header-inner">
-        <div class="container">
+    <div class="header-inner bg-white">
+        <div class="container ">
             <div class="cat-nav-head">
                 <div class="row">
                     <div class="col-lg-12 col-12">
                         <div class="menu-area">
                             <!-- Main Menu -->
-                            <nav class="navbar navbar-expand-lg" style="height: 6vh">
+                            <nav class="navbar navbar-expand-lg " style="height: 6vh">
                                 <div class="navbar-collapse">
                                     <div class="nav-inner">
                                         <ul class="nav main-menu menu navbar-nav">
