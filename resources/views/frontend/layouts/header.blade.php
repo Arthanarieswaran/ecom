@@ -139,6 +139,7 @@
                                         </div>
                                         <a href="{{route('cart')}}" class="btn animate">Cart</a>
                                     </div>
+
                                 </div>
                             @endauth
                             <!--/ End Shopping Item -->
@@ -179,12 +180,20 @@
                                 </div>
                             @endauth
                             <!--/ End Shopping Item -->
+
                         </div>
+
+                        <div class="sinlge-bar shopping">
+                            <a href="{{route('cart')}}" class="single-icon"><i class="ti-user"></i> {{--<span class="total-count">{{Helper::cartCount()}}</span>--}}</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- Header Inner -->
     <div class="header-inner">
         <div class="container">
