@@ -47,13 +47,14 @@
             <div class="row" style="height: 9vh">
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
-                    <div class="logo">
+                    <div class="logo d-flex flex-row" style="margin-left: -20vh; margin-top:-0.5vh" >
                         @php
                             $settings=DB::table('settings')->get();
                         @endphp
-                        <a href="{{route('home')}}"><img src="@foreach($settings as $data) {{$data->logo}} @endforeach" alt="logo" style="height: 60px; width: 60px"></a>
+                        <a href="{{route('home')}}"><img src="@foreach($settings as $data) {{$data->logo}} @endforeach" alt="logo" style="height: 60px; width: 60px"></a><p class="mt-4">TESting</p>
                     </div>
                     <!--/ End Logo -->
+
                     <!-- Search Form -->
                     <div class="search-top">
                         <div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
@@ -68,24 +69,31 @@
                     </div>
                     <!--/ End Search Form -->
                     <div class="mobile-nav"></div>
-                </div>
-                <div class="col-lg-8 col-md-7 col-12">
-                    <div class="search-bar-top">
-                        <div class="search-bar">
-                            <select>
+
+                           {{-- <select>
                                 <option >All Category</option>
                                 @foreach(Helper::getAllCategory() as $cat)
                                     <option>{{$cat->title}}</option>
                                 @endforeach
-                            </select>
-                            <form method="POST" action="{{route('product.search')}}">
-                                @csrf
-                                <input name="search" placeholder="Search Products Here....." type="search">
-                                <button class="btnn" type="submit"><i class="ti-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
+                            </select> --}}
                 </div>
+
+                {{-- search bar --}}
+                    <div class="ps-5 mt-2" style="margin-left: 23vh;">
+                        {{-- <div class="form d-flex flex-row align-items-center pe-3 border rounded"> --}}
+                             <form method="POST" {{--action="{{route('product.search')}}"--}} class="form d-flex flex-row align-items-center pe-3 border rounded border-dark">
+                                @csrf
+                                <input id="search-focus" type="text" class="p-2 border-0" placeholder="Search....." style="width: 75vh;"/>
+                                <div class=" bg-cover bg-dark rounded justify-content-center" style="height: 40px"><i class="ti-search p-2" style="color: white;"></i></div>
+                                {{-- <button></button> --}}
+                                {{-- <i class="fa-solid fa-magnifying-glass"></i> --}}
+                                {{-- <button class=" bg-white border rounded" type="submit"><i class="ti-search"></i></button> --}}
+                            </form>
+                        {{-- </div> --}}
+                    </div>
+                    {{-- search bar modify --}}
+                {{-- search bar end --}}
+
                 <div class="col-lg-2 col-md-3 col-12">
                     <div class="right-bar">
                         <!-- Search Form -->

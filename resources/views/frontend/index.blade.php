@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')<!--used for loder-->
 @section('title','E-SHOP || HOME PAGE')
 @section('main-content')
-<!-- Slider Area -->
+{{-- <!-- Slider Area -->
 @if(count($banners)>0)
     <section id="Gslider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -31,12 +31,12 @@
         <span class="sr-only">Next</span>
         </a>
     </section>
-@endif
+@endif --}}
 
 <!--/ End Slider Area -->
 
 <!-- Start Small Banner  -->
-<section class="small-banner section">
+{{-- <section class="small-banner section">
     <div class="container-fluid">
         <div class="row">
             @php
@@ -65,10 +65,10 @@
             @endif
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Small Banner -->
 
-<!-- Start Product Area -->
+{{-- <!-- Start Product Area -->
 <div class="product-area section">
         <div class="container">
             <div class="row">
@@ -162,12 +162,12 @@
                 </div>
             </div>
         </div>
-</div>
+</div> --}}
 <!-- End Product Area -->
 {{-- @php
     $featured=DB::table('products')->where('is_featured',1)->where('status','active')->orderBy('id','DESC')->limit(1)->get();
 @endphp --}}
-<!-- Start Midium Banner  -->
+{{-- <!-- Start Midium Banner  -->
 <section class="midium-banner">
     <div class="container">
         <div class="row">
@@ -192,11 +192,11 @@
             @endif
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Midium Banner -->
 
 <!-- Start Most Popular -->
-<div class="product-area most-popular section">
+{{-- <div class="product-area most-popular section">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -220,7 +220,7 @@
                                     @endphp
                                     <img class="default-img" src="{{$photo[0]}}" alt="{{$photo[0]}}">
                                     <img class="hover-img" src="{{$photo[0]}}" alt="{{$photo[0]}}">
-                                    {{-- <span class="out-of-stock">Hot</span> --}}
+                                    {{-- <span class="out-of-stock">Hot</span>
                                 </a>
                                 <div class="button-head">
                                     <div class="product-action">
@@ -250,10 +250,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Most Popular Area -->
 
-<!-- Start Shop Home List  -->
+{{-- <!-- Start Shop Home List  -->
 <section class="shop-home-list section">
     <div class="container">
         <div class="row">
@@ -300,10 +300,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Shop Home List  -->
 
-<!-- Start Shop Blog  -->
+{{-- <!-- Start Shop Blog  -->
 <section class="shop-blog section">
     <div class="container">
         <div class="row">
@@ -333,10 +333,10 @@
 
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Shop Blog  -->
 
-<!-- Start Shop Services Area -->
+{{-- <!-- Start Shop Services Area -->
 <section class="shop-services section home">
     <div class="container">
         <div class="row">
@@ -378,12 +378,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Shop Services Area -->
 
-@include('frontend.layouts.newsletter')
+{{-- @include('frontend.layouts.newsletter') --}}
 
-<!-- Modal -->
+{{-- <!-- Modal -->
 @if($product_lists)
     @foreach($product_lists as $key=>$product)
         <div class="modal fade" id="{{$product->id}}" tabindex="-1" role="dialog">
@@ -421,7 +421,7 @@
                                                     <i class="yellow fa fa-star"></i>
                                                     <i class="yellow fa fa-star"></i>
                                                     <i class="yellow fa fa-star"></i>
-                                                    <i class="fa fa-star"></i> --}}
+                                                    <i class="fa fa-star"></i>
                                                     @php
                                                         $rate=DB::table('product_reviews')->where('product_id',$product->id)->avg('rate');
                                                         $rate_count=DB::table('product_reviews')->where('product_id',$product->id)->count();
@@ -466,7 +466,7 @@
                                                             @endforeach
                                                         </select>
                                                     </div>
-                                                    {{-- <div class="col-lg-6 col-12">
+                                                     <div class="col-lg-6 col-12">
                                                         <h5 class="title">Color</h5>
                                                         <select>
                                                             <option selected="selected">orange</option>
@@ -474,7 +474,7 @@
                                                             <option>black</option>
                                                             <option>pink</option>
                                                         </select>
-                                                    </div> --}}
+                                                    </div> -
                                                 </div>
                                             </div>
                                         @endif
@@ -514,8 +514,8 @@
                 </div>
         </div>
     @endforeach
-@endif
-<!-- Modal end -->
+@endif --}}
+{{-- <!-- Modal end -->
 @endsection
 
 @push('styles')
@@ -557,8 +557,8 @@
         bottom: 70px;
         }
     </style>
-@endpush
-
+@endpush --}}
+{{--
 @push('scripts')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script>
@@ -633,4 +633,4 @@
         }
     </script>
 
-@endpush
+@endpush --}}
